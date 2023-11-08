@@ -9,7 +9,8 @@
         font-size: 24px;
         font-weight: 100;
         line-height: 29px;
-            margin:20px 0 0 0;
+        margin:20px 0 0;
+        text-align: left;
             
 }
 .Weather ul{
@@ -21,6 +22,7 @@
     font-weight: 100; 
     line-height: 19px;
     list-style: none;
+    
 }
 .weather img{
     height:64px;
@@ -39,4 +41,7 @@ position: relative;
 top: -34px;
 margin-left: 5px;
 line-height: 1;
+}
+.Weather .description{
+    text-align: left;
 }
