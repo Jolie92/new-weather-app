@@ -1,10 +1,12 @@
 
 .Weather{
-    border: 1px solid #dadde1;
-    color: rgb(135, 135, 135);
+   
+    color: rgb(77, 72, 72);
     font-family: arial,sans-serif;
     padding: 16px;
     border-radius: 4px;
+    border: 1px solid black;
+    border-radius: 10px;
     
     
 }

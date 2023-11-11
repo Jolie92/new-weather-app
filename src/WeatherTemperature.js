@@ -12,7 +12,7 @@ export default function WeatherTemperature(props) {
         setUnit("celsius");
     }
 function fahrenheit(){
-    return (props.celsius*9/5) + 32;
+    return (props.celsius *9/5) + 32;
 }
     if(unit === "celsius"){
 
@@ -20,7 +20,7 @@ function fahrenheit(){
     <div className="WeatherTemperature">
       <span className="temperature">{Math.round(props.celsius)}</span>
       <span className="unit"> °C | {" "}
-        <a haref="/" onClick={showFahrenheit}>
+        <a href="/" onClick={showFahrenheit}>
            °F </a>
       </span>
     </div>
@@ -28,10 +28,10 @@ function fahrenheit(){
 } else{
     return(
         <div className="WeatherTemperature">
-      <span className="temperature">{Math.round(fahrenheit)}</span>
+      <span className="temperature">{Math.round(fahrenheit())}</span>
       <span className="unit">
-        <a haref="/ " onClick={showCelsius}>°C
-           </a> {" "}
+    <a href="/" onClick={showCelsius}>°C
+           </a>{" "}
            |°F
       </span>
     </div>
