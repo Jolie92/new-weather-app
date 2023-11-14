@@ -9,7 +9,8 @@ function App() {
     
 <Weather defaultCity = "London"/>
       <footer>
-        This project was coded by Laura Loriga and is {""}
+        This project was coded by <a href="https://myportfoliolauraloriga.netlify.app/"
+        target="_blank" rel="noreferrer">Laura Loriga </a>  and is {""}
         <a href="https://github.com/Jolie92/new-weather-app"
         target="_blank" rel="noreferrer"> open-sourced on GitHub </a>
       </footer>
