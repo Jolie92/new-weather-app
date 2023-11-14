@@ -23,7 +23,7 @@
     padding:0;
 }
 .Weather li{
-    line-height: 19px;
+    line-height: 20px;
     list-style: none;
     display: list-item;
     
@@ -34,8 +34,9 @@
     font-size: 50px;
     font-weight: 400;
     color:rgb(33,33,33);
-    line-height: 64px;
+    line-height: 50px;
     margin-left: 20px;
+    
 }
 .Weather .unit{
 font-size: 16px;
@@ -47,8 +48,5 @@ line-height: 1;
 .Weather .description{
     text-align: left;
 }
-.Weather .description2 {
-    text-align: right;
-    
-}
+
  
